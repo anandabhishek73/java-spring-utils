@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.Date;
 
 @Slf4j
-@SpringBootTest
+@SpringBootTest("logging.level.com.abhishek.utils=TRACE")
 class LRUCacheTest {
 
     private LRUCache<Integer, String> cache;
